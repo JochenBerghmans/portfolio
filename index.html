@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Jochen Berghmans</title>
+  <meta name="description" content="Portfolio of Jochen Berghmans, Crossmedia student at Don Bosco Sint-Denijs-Westrem (Belgium): photography, graphic design and technical production.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <!-- MENU: on every page. Add an <a> here for a new page. -->
+  <nav class="menu">
+    <a href="index.html" class="actief">About me</a>
+    <a href="projecten.html">Projects</a>
+  </nav>
+
+  <!-- HEADER: the car photo is set in styles.css (.hero). The text types itself. -->
+  <header class="hero">
+
+    <img class="hero-foto" src="images/auto.png" alt ="">
+    <!-- style="--n:16" = number of characters in the title. Change it if you change the text. -->
+    <h1 class="typen" style="--n:16">Portfolio Jochen</h1>
+    <p class="hero-sub">Crossmedia student</p>
+    <a class="knop-glas" href="projecten.html">View my projects</a>
+  </header>
+
+  <main>
+
+    <!-- ABOUT ME (hobbies included) -->
+    <section class="blok over-mij">
+      <div class="foto portret">
+        <img src="images/gezicht.jpg" alt="Portrait of Jochen">
+      </div>
+      <div>
+        <h2>About me</h2>
+        <p>Hi, I'm Jochen Berghmans. I'm a final-year Crossmedia student at Don Bosco Sint-Denijs-Westrem in Belgium, with a strong interest in graphic design, digital media and technical production.</p>
+        <p>As a monitor at Fab Lab Erpe-Mere and a leader at Scouts Kievit, I have developed my communication and leadership skills. I'm creative, responsible and happy to take initiative.</p>
+        <p>Languages: Dutch (native), English (very good), French (fair).</p>
+
+        <h3>Hobbies</h3>
+        <ul class="hobbys">
+          <li>Scouts</li>
+          <li>Photography</li>
+          <li>Swimming</li>
+          <li>Hiking</li>
+          <li>Gaming</li>
+          <li>Time with friends</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PHOTOGRAPHY: at least 3 photos. Copy a <figure> to add one. -->
+    <section class="blok">
+      <h2>Photography</h2>
+      <p class="intro">A selection of my photos, edited with Adobe Lightroom and Photoshop.</p>
+
+      <div class="galerij">
+        <figure>
+          <div class="foto"><img src="images/deur.jpg" alt="A door"></div>
+          <figcaption>Wrought-iron gate and stone facade, Barcelona, 2026.</figcaption>
+        </figure>
+        <figure>
+          <div class="foto"><img src="images/hotending.jpg" alt="wooden statue"></div>
+          <figcaption>Zirbenweg &ndash; Weathered wooden archway marking the trail, Alps, 2024. </figcaption>
+        </figure>
+        <figure>
+          <div class="foto"><img src="images/scouts.jpg" alt="campfire"></div>
+          <figcaption>campfire &ndash; Evening around the fire at scout camp, 2025.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:jochen.berghmans@gmail.com">jochen.berghmans@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
